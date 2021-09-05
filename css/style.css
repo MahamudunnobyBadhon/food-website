@@ -66,7 +66,7 @@ section{
   width:0%;
   height:100%;
   background:var(--red);
-  transition: .3s linear;
+  transition: 0.5s linear;
   z-index: -1;
 }
 
@@ -142,20 +142,22 @@ header .navbar a:hover{
   flex:1 1 40rem;
 }
 
+/* image animation */
+
 .home .image img{
   width:100%;
   padding:1rem;
   animation:float 3s linear infinite;
 }
 
-/* @keyframes float{
+ @keyframes float{
   0%, 100%{
     transform: translateY(0rem);
   }
   50%{
     transform: translateY(3rem);
   }
-} */
+} 
 
 .home .content h3{
   font-size: 5rem;
@@ -174,6 +176,7 @@ header .navbar a:hover{
   gap:1.5rem;
 }
 
+/* overflow hidden */
 .speciality .box-container .box{
   flex:1 1 30rem;
   position: relative;
@@ -463,34 +466,6 @@ header .navbar a:hover{
 .footer .credit span{
   color:var(--red);
 }
-
-.loader-container{
-  position: fixed;
-  top:0; left:0;
-  z-index: 10000;
-  background:#fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height:100%;
-  width:100%;
-}
-
-.loader-container.fade-out{
-  top:-120%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* media queries  */
