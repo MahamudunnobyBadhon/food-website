@@ -53,7 +53,7 @@
                                     <h4>Price: <span id="foodPrice-1">250</span></h4>
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-6">
                                     <h5 style="display: none;" id="error">Sorry! Quantity can't be zero or negative</h5>
                                 </div>
                             </div>
@@ -72,53 +72,41 @@
                 <span class="price">Taka 220</span>
                 <img src="images/Hydrabadi-biryani.jpg" alt="">
                 <h3>হায়দ্রাবাদি বিরিয়ানি</h3>
-               <!-- Button trigger modal -->
-               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Order Now
-            </button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <h3>Our food is very delicious</h3>
-                        price 250Taka
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn">Confirm Order</button>
-                    </div>
-                </div>
-                </div>
-            </div>
 
-            </div>
-            <div class="box">
-                <span class="price">Taka 170 </span>
-                <img src="images/chicken-biryani.jpg" alt="">
-                <h3>চিকেন বিরিয়ানি</h3>
-                
-                <!-- Button trigger modal -->
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+
+               <!-- Button trigger modal -->
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     Order Now
                 </button>
                 
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Hydrabadi biryani is very delicious</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <h3>Our food is very delicious</h3>
-                            price 250Taka
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus2" class="fas fa-minus"></i></button>
+                                    <input id="value2" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus2" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-2">220</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error2">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
@@ -127,11 +115,63 @@
                     </div>
                     </div>
                 </div>
+
+            </div>
+            <div class="box">
+                <span class="price">Taka 170 </span>
+                <img src="images/chicken-biryani.jpg" alt="">
+                <h3>চিকেন বিরিয়ানি</h3>
+                
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    Order Now
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLabel3">Chicken biryani is very delicious</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus3" class="fas fa-minus"></i></button>
+                                    <input id="value3" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus3" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-3">170</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error3">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn">Confirm Order</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
             </div>
             <div class="box">
                 <span class="price">Taka 100</span>
                 <img src="images/chicken-grill.jpg" alt="">
                 <h3>চিকেন গ্রিল</h3>
+
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                     Order Now
@@ -142,12 +182,29 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Chicken Grill is very delicious</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <h3>Our food is very delicious</h3>
-                            price 250Taka
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus4" class="fas fa-minus"></i></button>
+                                    <input id="value4" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus4" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-4">100</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error4">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
@@ -156,11 +213,14 @@
                     </div>
                     </div>
                 </div>
+
             </div>
             <div class="box">
                 <span class="price">Taka 350</span>
                 <img src="images/hilsha fry.jpg" alt="">
                 <h3>ইলিশ ভাজা</h3>
+               
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal5">
                     Order Now
@@ -171,12 +231,29 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Hilsha Fry is very delicious</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <h3>Our food is very delicious</h3>
-                            price 250Taka
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus5" class="fas fa-minus"></i></button>
+                                    <input id="value5" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus5" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-5">350</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error5">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
@@ -185,13 +262,16 @@
                     </div>
                     </div>
                 </div>
+
             </div>
             <div class="box">
                 <span class="price">Taka 280 </span>
                 <img src="images/meat biryani.jpg" alt="">
                 <h3>বিফ বিরিয়ানি</h3>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                
+
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal6">
                     Order Now
                 </button>
                 
@@ -200,12 +280,29 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Beef Briyani is very delicious</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <h3>Our food is very delicious</h3>
-                            price 250Taka
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus6" class="fas fa-minus"></i></button>
+                                    <input id="value6" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus6" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-6">280</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error6">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
@@ -214,42 +311,65 @@
                     </div>
                     </div>
                 </div>
+
+
+
             </div>
             <div class="box">
                 <span class="price">Taka 120 </span>
                 <img src="images/chocolates.jpg" alt="">
                 <h3>চকলেট</h3>
-               <!-- Button trigger modal -->
-               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                Order Now
-            </button>
-            
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                    Order Now
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLabel">Chocolate is very delicious</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus7" class="fas fa-minus"></i></button>
+                                    <input id="value7" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus7" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-7">120</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error7">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn">Confirm Order</button>
+                        </div>
                     </div>
-                    <div class="modal-body">
-                        <h3>Our food is very delicious</h3>
-                        price 250Taka
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn">Confirm Order</button>
                     </div>
                 </div>
-                </div>
-            </div>
+
+
             </div>
             <div class="box">
                 <span class="price">Taka 200</span>
                 <img src="images/beef shik kabab.jpg" alt="">
                 <h3>বিফ শিক কাবাব</h3>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal8">
                     Order Now
                 </button>
                 
@@ -258,12 +378,29 @@
                     <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Order Now</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Beef shick kabab is very delicious</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body">
-                            <h3>Our food is very delicious</h3>
-                            price 250Taka
+                        <div class="modal-body">            
+                            <div class="row">
+                                <div class="col-6"><h4>Quantity</h4></div>
+                            </div>
+                            <div class="row">
+                                <div style="display: flex; flex-wrap: nowrap; justify-content: center;"class="col-6">
+                                    <button class=""><i style="width: 20px;" id="minus8" class="fas fa-minus"></i></button>
+                                    <input id="value8" style="width: 50%" type="number" min="0" class="form-control text-center" value="1" disabled>
+                                    <button class=""><i style="width: 20px;" id="plus8" class="fas fa-plus"></i></button>
+
+                                </div>
+
+                                <div class="col-6">
+                                    <h4>Price: <span id="foodPrice-8">200</span></h4>
+                                </div>
+
+                                <div class="col-6">
+                                    <h5 style="display: none;" id="error8">Sorry! Quantity can't be zero or negative</h5>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                         <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
@@ -272,6 +409,9 @@
                     </div>
                     </div>
                 </div>
+
+                <!-- remaining -->
+
             </div>
             <div class="box">
                 <span class="price">Taka 110</span>
